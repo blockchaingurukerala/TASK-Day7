@@ -1,0 +1,15 @@
+<h1>Add two numbers</h1>
+<table class="table">
+    <tr>
+        <td>First No</td>
+        <td><input type="number" class="form-control" [(ngModel)]="no1"></td>
+    </tr>
+    <tr>
+        <td>Second No</td>
+        <td><input type="number" class="form-control" [(ngModel)]="no2"></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align: center;"><button type="button" class="btn btn-primary" (click)="add()">ADD</button></td>
+    </tr>
+    <h3>Result is {{sum}}</h3>
+</table>
